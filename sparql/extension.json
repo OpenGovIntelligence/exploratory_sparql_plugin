@@ -1,0 +1,31 @@
+{
+    "name": "sparql",
+    "displayName": "SPARQL",
+    "iconWidth" : "32px",
+    "iconHeight" : "32px",
+    "iconURL" : "http://xmllondon.com/images/sparqlThumb.png",
+    "helpURL" :  "http://docs.exploratory.io/import/web-scraping.html",
+    "function": "executeSparql",
+    "rSourceFile" : "extension.r",
+    "packages": [{"name":"SPARQL","version":"1.16"},{"name":"RCurl", "version":"1.95-4.8"}],
+    "version" : "0.1",
+    "hasQueryField" : true,
+    "timestamp": "2016-04-11T23:54:42.688Z",
+    "updatedBy": "",
+    "inputParameters": [
+      {
+        "name": "endpoint",
+        "displayName":"Endpoint",
+        "dataType": "text",
+        "defaultValue" : "",
+        "required" : true
+      },
+      {
+        "name" : "query", 
+        "displayName":"Query", 
+        "dataType":"text", 
+        "defaultValue" : "",
+        "required" : true
+      } 
+    ]
+}
